@@ -1,0 +1,241 @@
+:root {
+  --main: #228a2b;
+}
+
+body,
+html {
+  margin: 0px;
+  padding: 0;
+  font-family: helvetica;
+  background-color: #141313;
+  color: #fff;
+  overflow-x: hidden;
+}
+h1 {
+  font-size:20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    bottom: 0%;
+    position: fixed;
+    background-color: #1f1e1e;
+}
+nav i {
+  width: 50px;
+  height: 50px;
+  color: #FFF;
+  padding: 25px;
+}
+nav i:hover {
+  width: 50px;
+  height: 50px;
+  color: #228a2b;
+  padding: 25px;
+}
+.sect {
+    width: 95%;
+    height: 60px;
+    background-color: #242222;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.sect h2 {
+  color: #757171;
+  float: left;
+  font-size: smaller;
+  font-weight: 500;
+  margin-top: 34px;
+  margin-left: -82px;
+}
+.sect h3 {
+  color: #757171;
+  float: left;
+  font-size: smaller;
+  font-weight: 500;
+  margin-top: 34px;
+  margin-left: -120px;
+}
+.sect h4 {
+  color: #757171;
+  float: left;
+  font-size: smaller;
+  font-weight: 500;
+  margin-top: 34px;
+  margin-left: -115px;
+}
+.sect h5 {
+  color: #757171;
+  float: left;
+  font-size: smaller;
+  font-weight: 500;
+  margin-top: 34px;
+  margin-left: -41px;
+}
+.sect h1 {
+  color: #fff;
+  font-size:large;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-weight: 500;
+  padding: -10px;
+}
+.sect img{
+  float: left;
+  height: 45px;
+  width: 45px;
+  padding: 7px;
+  border-radius: 50px;
+  margin-left: 1px;
+}
+.sect a {
+  margin-top: 13px;
+  margin-right: 14px;
+  float: right;
+  padding: 5px;
+  width: 60px;
+  height: 20px;
+  background-color: var(--main);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+}
+.sect a:hover {
+  margin-top: 13px;
+  margin-right: 14px;
+  float: right;
+  padding: 5px;
+  width: 60px;
+  height: 20px;
+  background-color: #1a6320;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+}
+.slider {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}  
+.card {
+  width: 280px;
+  height: 155px;
+  padding: 10px;
+}
+
+.card img {
+  width: 280px;
+  border-radius: 25px;
+  height: 150px;
+}
+.card a {
+  text-decoration: none;
+  color: #fff;
+}
+h3 {
+  color: #757171;
+  float: left;
+  margin-left: 10px;
+  font-size: smaller;
+  font-weight: 500;
+}
+.bi::before {
+  margin-top: 15px;
+}
+h8 {
+  color: #fff;
+  margin-left: 10px;
+  font-size:25px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+h9 {
+  color: #757171;
+  float: left;
+  margin-left: 10px;
+  font-size: smaller;
+  font-weight: 500;
+  margin-top: 8px;
+}
+#next {
+  padding: 5px;
+  width: 91%;
+  font-size: 14px;
+  height: 40px;
+  background-color: var(--main);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+  border-style: none;
+  margin-top: 0px;
+}
+#next:hover {
+  padding: 5px;
+  width: 90%;
+  height: 40px;
+  background-color: #1a6320;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+  border-style: none;
+  margin-top: 0px;
+}
+.signer {
+  width: 93%;
+  height: 180px;
+  background-color: #242222;
+  border-radius: 10px;
+}
+.signer h1{
+  color: #FFF;
+  margin-right: 10px;
+  padding: 15px;
+}
+.signer h2{
+  color: #FFF;
+  margin-right: 0px;
+  padding: 0px;
+  font-size: 8px;
+  top: 0%;
+}
+.signerfiles {
+  width: 95%;
+  height: 275px;
+  background-color: #242222;
+  border-radius: 10px;
+}
+.signerfiles h1{
+  color: #FFF;
+  margin-right: 10px;
+  padding: 15px;
+}
+h404 {
+  font-size: 200px;
+}
+h20 {
+  font-size: 17px;
+  color:#757171;
+}
+h21{
+  font-size: 17px;
+  color:#228a2b;
+  text-decoration: none;
+}
+h21:hover{
+  font-size: 17px;
+  color:#217228;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.tut {
+  width: 93%;
+  height: 340px;
+  background-color: #242222;
+  border-radius: 10px;
+}
