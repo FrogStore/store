@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#141313">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/signerinput.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<title>Signer</title>
+</head>
+<body>
+<center>
+<br>
+<div class="signer">
+<h1>Signer</h1>
+<input type="text" id="ipa" placeholder="Starfiles IPA ID" required>
+<button id="next" onclick="sign()">Sign</button>
+</div>
+<br>
+<div class="tut">
+<br>
+<h1 style="font-weight: 400;">How to get the IPA ID</h1>
+<h1 style="font-weight: 400; color: #fff; font-size: 17px;">Go to <a href="https://www.starfiles.co/" style="color: #245dad;">starfiles.co</a> and upload the IPA you want to sign, then copy the ID like shown below.</h1>
+<img src="img/starfiles-ss.jpg" style="width: 310px; border-radius: 10px; margin: 10px;">
+<button id="next" onclick="starfiles()">Take me to Starfiles</button>
+</div>
+<center>
+    <nav>
+        <a href="signer.html">
+        <i class="bi bi-upload" style="font-size: 2rem;"></i>
+        </a>
+        <a href="index.html">
+        <i class="bi bi-house" style="font-size: 2rem;"></i>
+        </a>
+        <a href="search.html">
+        <i class="bi bi-search" style="font-size: 2rem;"></i>
+        </a>
+    </nav>
+</center>
+<script src="/script.js"></script>
+</body>
+</html>
